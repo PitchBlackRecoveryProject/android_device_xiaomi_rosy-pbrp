@@ -10,8 +10,8 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'rosy'
       FLAVOR: 'eng'
-      TEST_BUILD: 'true'
-      #PB_OFFICIAL: 'true'
+      #TEST_BUILD: 'true'
+      PB_OFFICIAL: 'true'
       CHANGELOG: |
         - Initial Official Build
       EXTRA_CMD: "cd vendor/qcom/opensource/commonsys && rm -rf cryptfs_hw Android.bp && wget -q https://raw.githubusercontent.com/ElytrA8/cryptfs_fixup/main/Android.bp && cd ../../../.."
